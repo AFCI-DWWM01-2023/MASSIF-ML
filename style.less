@@ -739,3 +739,65 @@ body{
         }
     }
 }
+@media screen and (max-width:400px){
+    body{
+        header{
+            .imageFond{
+                .centrage{
+                    h2{
+                        padding-top: 60px;
+                    }
+                    h1{
+                        width: 350px;
+                    }
+                }
+            }
+        }
+        .section1{
+            position: relative;
+            .image{
+                img{
+                    height: 200px;
+                    width: 150px;
+                    position: absolute;
+                    right: 60%;
+                }
+            }
+            .texte{
+                h2{
+                    position: absolute;
+                    left: 45%;
+                }
+                :nth-child(2){
+                    position: absolute;
+                    left: 45%;
+                    width: 210px;
+                }
+                :nth-child(3){
+                    position: absolute;
+                    left: 45%;
+                    width: 210px;
+                }
+            }
+        }
+        .section2{
+            position: relative;
+            .chambres{
+                .double{
+                    right: 150px;
+                    img{
+                        height: 180px;
+                        width: 170px;
+                    }
+                }
+                .famille{
+                    left: 150px;
+                    img{
+                        height: 180px;
+                        width: 170px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -647,3 +647,51 @@ body footer .avis .edward .bas1 .text1 p {
     left: 320px;
   }
 }
+@media screen and (max-width: 400px) {
+  body header .imageFond .centrage h2 {
+    padding-top: 60px;
+  }
+  body header .imageFond .centrage h1 {
+    width: 350px;
+  }
+  body .section1 {
+    position: relative;
+  }
+  body .section1 .image img {
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    right: 60%;
+  }
+  body .section1 .texte h2 {
+    position: absolute;
+    left: 45%;
+  }
+  body .section1 .texte :nth-child(2) {
+    position: absolute;
+    left: 45%;
+    width: 210px;
+  }
+  body .section1 .texte :nth-child(3) {
+    position: absolute;
+    left: 45%;
+    width: 210px;
+  }
+  body .section2 {
+    position: relative;
+  }
+  body .section2 .chambres .double {
+    right: 150px;
+  }
+  body .section2 .chambres .double img {
+    height: 180px;
+    width: 170px;
+  }
+  body .section2 .chambres .famille {
+    left: 150px;
+  }
+  body .section2 .chambres .famille img {
+    height: 180px;
+    width: 170px;
+  }
+}
